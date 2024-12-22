@@ -1,4 +1,72 @@
+.header
+{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-section{
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+.left-button{
+  height: 24px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+.yt-logo
+{
+  height: 20px;
+}
+
+.middle-section{
+  
+  display: flex;
+  flex: 1;
+  margin-right: 30px;
+  max-width: 500px;
+  align-items: center;
+}
+.search
+{
+  height: 40px;
+  width: 60px;
+  background-color: rgb(235, 235, 235);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(167, 165, 165);
+  margin-left: -1px;
+}
+.search-icon
+{
+  height: 25px;
+  margin-top: 5px;
+  
+}
+.voice-search
+{
+  height: 40px;
+  width: 40px;
+}
 .searchbox
 {
-  display: block;
+  height: 36px;
+  flex: 1;
+  padding-left: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(167, 165, 165);
+  border-radius: 2px;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.05) inset;
+}
+.searchbox::placeholder
+{
+  font-family: Roboto, Arial;
+  
+  font-size: 16px;
+}
+.right-section{
+  background-color: lightblue;
+  width: 200px;
 }
