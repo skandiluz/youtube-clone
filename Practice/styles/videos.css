@@ -45,9 +45,7 @@
   text-decoration: none;
   color: inherit;
 }
-{
-  text-decoration: none;
-}
+
 .video-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
