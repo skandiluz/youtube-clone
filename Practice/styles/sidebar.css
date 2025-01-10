@@ -3,15 +3,16 @@
   position: fixed;
   bottom: 0px;
   left: 0px;
-  top: 55px;
-  width: 72px;
-  
-
+  top: 50px;
+  width: 73px;
+  z-index: 200;
+  background-color: white;
+  padding-top: 15px;
 }
 .sidebar-link
 {
   
-  height: 75px;
+  height: 76px;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -33,5 +34,5 @@
 .sidebar-link div
 {
   font-family: Roboto, arial;
-  font-size: 12px;
+  font-size: 11px;
 }
