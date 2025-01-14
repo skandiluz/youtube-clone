@@ -85,7 +85,7 @@
 .search-icon
 {
   height: 25px;
-  margin-top: 5px;
+  
   
 }
 .voice-search
@@ -103,7 +103,7 @@
 .voice-icon
 {
   height: 25px;
-  margin-top: 2px;
+  
 }
 .searchbox
 {
@@ -130,6 +130,31 @@
   justify-content: space-between;
   flex-shrink: 0;
   
+}
+.upload-icon-container, .youtube-icon-container, .notifications-icon-container
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.upload-icon-container .tooltip, .youtube-icon-container .tooltip, .notifications-icon-container .tooltip
+{
+  position: absolute;
+  color: white;
+  background-color: gray;
+  bottom: -45px;
+  padding: 6px 8px 6px 8px;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  font-family: Roboto, Arial;
+}
+.upload-icon-container:hover .tooltip, .youtube-icon-container:hover .tooltip, .notifications-icon-container:hover .tooltip
+{
+  opacity: 1;
 }
 .upload-icon
 {
