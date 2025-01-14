@@ -26,10 +26,12 @@
   height: 24px;
   margin-right: 25px;
   margin-left: 25px;
+  cursor: pointer;
 }
 .yt-logo
 {
   height: 20px;
+  cursor: pointer;
 }
 
 .middle-section{
@@ -48,7 +50,7 @@
   border-width: 1px;
   border-style: solid;
   border-color: rgb(167, 165, 165);
-  margin-left: -1px;
+  margin-left: -2px;
   margin-right: 8px;
   cursor: pointer;
   transition: opacity 0.15s;
@@ -94,7 +96,7 @@
   width: 40px;
   border-radius: 50%;
   border: none;
-  background-color: rgb(247, 243, 243);
+  background-color: rgb(255, 254, 254);
   cursor: pointer;
   position: relative;
 }
@@ -151,6 +153,7 @@
   opacity: 0;
   pointer-events: none;
   font-family: Roboto, Arial;
+  transition: opacity 0.15s;
 }
 .upload-icon-container:hover .tooltip, .youtube-icon-container:hover .tooltip, .notifications-icon-container:hover .tooltip
 {
