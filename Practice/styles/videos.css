@@ -52,8 +52,9 @@
   column-gap: 15px;
   row-gap: 20px;
   margin-bottom: 40px;
+  
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1350px){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -73,7 +74,7 @@
 }
 .video-time
 {
-  font-family: Roboto, Arial;
+  
   font-size: 12px;
   font-weight: 500;
   background-color: black;
